@@ -1,0 +1,22 @@
+{
+  "comparison": "fusion_minus_convnext_auc",
+  "null_hypothesis": "paired ROC AUC difference equals zero",
+  "alternative": "two-sided",
+  "resampling_unit": "participant; all knees from a sampled participant retained together",
+  "n_knees": 566,
+  "n_participants": 450,
+  "n_bootstrap": 50000,
+  "seed": 20260904,
+  "observed_auc_difference": 0.0005612990810358598,
+  "bootstrap_standard_error": 0.003146876853449824,
+  "bootstrap_percentile_95_ci": {
+    "low": -0.005539663077044751,
+    "high": 0.006860447996715464
+  },
+  "two_sided_centered_bootstrap_p_value": 0.8596828063438732,
+  "centered_extreme_replicates": 42984,
+  "two_sided_normal_p_value_from_bootstrap_se": 0.8584347396022812,
+  "z_statistic_from_bootstrap_se": 0.178367030924812,
+  "predictions": "<withheld>",
+  "reporting_choice": "Report the centered participant-cluster bootstrap p value with the paired percentile confidence interval."
+}

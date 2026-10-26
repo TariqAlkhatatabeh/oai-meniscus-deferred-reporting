@@ -1,0 +1,33 @@
+{
+  "tag": "convnext_safe_strong_16s_tta_20260629_gradcam_curated_v3",
+  "checkpoint": "<withheld>",
+  "predictions_csv": "<withheld>",
+  "backbone": "convnext_base.fb_in22k_ft_in1k",
+  "local_weights": "<withheld>",
+  "target": "predicted_class",
+  "max_per_group": 8,
+  "central_start": 4,
+  "central_end": 11,
+  "n_review_cases": 32,
+  "n_example_cases": 4,
+  "n_plane_maps": 96,
+  "n_planes_changed_from_global": 45,
+  "example_selection": "highest visual score within each TP/TN/FP/FN group after central-window slice selection",
+  "outcome_counts": {
+    "TP": 8,
+    "TN": 8,
+    "FP": 8,
+    "FN": 8
+  },
+  "artifacts": {
+    "json": "<withheld>",
+    "selected_cases_csv": "<withheld>",
+    "figure_examples_csv": "<withheld>",
+    "plane_plausibility_csv": "<withheld>",
+    "summary_csv": "<withheld>",
+    "markdown": "<withheld>",
+    "caption": "<withheld>",
+    "figure": "<withheld>",
+    "figure_pdf": "<withheld>"
+  }
+}

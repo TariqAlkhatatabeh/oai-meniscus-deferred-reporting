@@ -1,0 +1,14 @@
+{
+  "tag": "convnext_safe_strong_16s_tta_20260629_vs_resnet_confidence_comparison",
+  "tables": {
+    "overall": "<withheld>",
+    "coverage": "<withheld>",
+    "calibration": "<withheld>",
+    "conformal": "<withheld>",
+    "gradcam": "<withheld>"
+  },
+  "figure": "<withheld>",
+  "figure_pdf": "<withheld>",
+  "markdown": "<withheld>",
+  "caption": "<withheld>"
+}

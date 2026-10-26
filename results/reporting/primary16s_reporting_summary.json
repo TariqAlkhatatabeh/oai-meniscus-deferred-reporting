@@ -1,0 +1,63 @@
+{
+  "reports": "<withheld>",
+  "n_knees_per_arm": 566,
+  "n_participants": 450,
+  "ci": "participant-clustered bootstrap, 5000 resamples",
+  "paired_tests": {
+    "any_rule_violation": {
+      "analysis_unit": "participant (any included knee)",
+      "n_participants": 450,
+      "constrained_only": 1,
+      "unconstrained_only": 393,
+      "exact_two_sided_mcnemar_p": 1.9579824721478153e-116
+    },
+    "factual_content_violation": {
+      "analysis_unit": "participant (any included knee)",
+      "n_participants": 450,
+      "constrained_only": 0,
+      "unconstrained_only": 378,
+      "exact_two_sided_mcnemar_p": 3.248565551764031e-114
+    },
+    "workflow_violation": {
+      "analysis_unit": "participant (any included knee)",
+      "n_participants": 450,
+      "constrained_only": 13,
+      "unconstrained_only": 133,
+      "exact_two_sided_mcnemar_p": 3.147208537399531e-26
+    }
+  },
+  "injection_challenge": {
+    "design": "Frozen-auditor exact-pattern injection challenge",
+    "total_detected": 249,
+    "total_n": 250,
+    "by_type": {
+      "numeric": {
+        "detected": 50,
+        "n": 50,
+        "rate": 1.0
+      },
+      "anatomy_location": {
+        "detected": 50,
+        "n": 50,
+        "rate": 1.0
+      },
+      "treatment": {
+        "detected": 50,
+        "n": 50,
+        "rate": 1.0
+      },
+      "severity": {
+        "detected": 50,
+        "n": 50,
+        "rate": 1.0
+      },
+      "workflow": {
+        "detected": 49,
+        "n": 50,
+        "rate": 0.98
+      }
+    },
+    "boundary": "Tests the implemented exact patterns; not unrestricted clinical paraphrase."
+  },
+  "auditor_sha256": "4135d5d7a7a9910557ebfb4087e8cfc48776057d42329ae3cb6e2fd61c112310"
+}

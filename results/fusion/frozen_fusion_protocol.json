@@ -1,0 +1,226 @@
+{
+  "base_calibrators_fit_on_all_validation": {
+    "convnext": {
+      "coef": [
+        2.389049410173816
+      ],
+      "intercept": -0.6134811273597834,
+      "mean": [
+        -1.695290915361641
+      ],
+      "scale": [
+        7.780703366110974
+      ]
+    },
+    "vlm": {
+      "coef": [
+        1.868399132890429
+      ],
+      "intercept": -0.3651243327456349,
+      "mean": [
+        -1.3869552061456585
+      ],
+      "scale": [
+        2.7793285081138612
+      ]
+    }
+  },
+  "baseline_oof_metrics": {
+    "convnext": {
+      "accuracy": 0.8722222222222222,
+      "auc": 0.9178611043086187,
+      "brier": 0.10188986751488964,
+      "ece_10bin": 0.04691072274577216,
+      "f1": 0.8329297820823245,
+      "fn": 39,
+      "fp": 30,
+      "log_loss": 0.3364297641758407,
+      "pr_auc": 0.908268878893708,
+      "sensitivity": 0.8151658767772512,
+      "specificity": 0.9088145896656535,
+      "threshold": 0.4230369472608657,
+      "tn": 299,
+      "tp": 172
+    },
+    "vlm": {
+      "accuracy": 0.8314814814814815,
+      "auc": 0.8919604142957981,
+      "brier": 0.13103300356601374,
+      "ece_10bin": 0.06718579233716963,
+      "f1": 0.7753086419753087,
+      "fn": 54,
+      "fp": 37,
+      "log_loss": 0.4191831000339464,
+      "pr_auc": 0.854503933099947,
+      "sensitivity": 0.7440758293838863,
+      "specificity": 0.8875379939209727,
+      "threshold": 0.28698936984636203,
+      "tn": 292,
+      "tp": 157
+    }
+  },
+  "candidate_oof_metrics": {
+    "equal_platt_blend": {
+      "accuracy": 0.8685185185185185,
+      "auc": 0.9202523804722049,
+      "brier": 0.10434621856666461,
+      "convnext_weight": 0.5,
+      "ece_10bin": 0.050232698575239945,
+      "eligible": true,
+      "f1": 0.8264058679706602,
+      "fn": 42,
+      "fp": 29,
+      "log_loss": 0.34618653343069783,
+      "pr_auc": 0.9069300260371912,
+      "sensitivity": 0.8009478672985783,
+      "specificity": 0.9118541033434651,
+      "threshold": 0.4008017566474008,
+      "tn": 300,
+      "tp": 169,
+      "type": "weighted_platt_blend"
+    },
+    "logistic_stack": {
+      "accuracy": 0.8703703703703703,
+      "auc": 0.9216496924473127,
+      "brier": 0.09954789410538609,
+      "ece_10bin": 0.032283700795111885,
+      "eligible": true,
+      "f1": 0.8284313725490197,
+      "fn": 42,
+      "fp": 28,
+      "log_loss": 0.32809574212512765,
+      "pr_auc": 0.91084965150618,
+      "sensitivity": 0.8009478672985783,
+      "specificity": 0.9148936170212766,
+      "threshold": 0.4389608146154696,
+      "tn": 301,
+      "tp": 169,
+      "type": "logistic_stack"
+    },
+    "weighted_platt_blend_conv60": {
+      "accuracy": 0.8685185185185185,
+      "auc": 0.9219089874530029,
+      "brier": 0.10191651364050368,
+      "convnext_weight": 0.6,
+      "ece_10bin": 0.0573331780856432,
+      "eligible": true,
+      "f1": 0.8272506082725061,
+      "fn": 41,
+      "fp": 30,
+      "log_loss": 0.3398085524883126,
+      "pr_auc": 0.9104243985003738,
+      "sensitivity": 0.8056872037914692,
+      "specificity": 0.9088145896656535,
+      "threshold": 0.42311447018624526,
+      "tn": 299,
+      "tp": 170,
+      "type": "weighted_platt_blend"
+    },
+    "weighted_platt_blend_conv70": {
+      "accuracy": 0.8629629629629629,
+      "auc": 0.9229317621976691,
+      "brier": 0.10045602607224571,
+      "convnext_weight": 0.7,
+      "ece_10bin": 0.05651039788935515,
+      "eligible": true,
+      "f1": 0.8262910798122066,
+      "fn": 35,
+      "fp": 39,
+      "log_loss": 0.335411724448383,
+      "pr_auc": 0.9120215470175671,
+      "sensitivity": 0.8341232227488151,
+      "specificity": 0.8814589665653495,
+      "threshold": 0.3483373787999339,
+      "tn": 290,
+      "tp": 176,
+      "type": "weighted_platt_blend"
+    },
+    "weighted_platt_blend_conv80": {
+      "accuracy": 0.8648148148148148,
+      "auc": 0.9219233927310966,
+      "brier": 0.09996475586189073,
+      "convnext_weight": 0.8,
+      "ece_10bin": 0.04898737904828655,
+      "eligible": true,
+      "f1": 0.8249400479616307,
+      "fn": 39,
+      "fp": 34,
+      "log_loss": 0.3330935216334192,
+      "pr_auc": 0.9116142852689545,
+      "sensitivity": 0.8151658767772512,
+      "specificity": 0.8966565349544073,
+      "threshold": 0.41380996046441054,
+      "tn": 295,
+      "tp": 172,
+      "type": "weighted_platt_blend"
+    },
+    "weighted_platt_blend_conv90": {
+      "accuracy": 0.8722222222222222,
+      "auc": 0.920526080755989,
+      "brier": 0.1004427030094387,
+      "convnext_weight": 0.9,
+      "ece_10bin": 0.03203486251794568,
+      "eligible": true,
+      "f1": 0.8312958435207825,
+      "fn": 41,
+      "fp": 28,
+      "log_loss": 0.33317111662237864,
+      "pr_auc": 0.9103535958576416,
+      "sensitivity": 0.8056872037914692,
+      "specificity": 0.9148936170212766,
+      "threshold": 0.43789282965846077,
+      "tn": 301,
+      "tp": 170,
+      "type": "weighted_platt_blend"
+    }
+  },
+  "folds": 5,
+  "n_knees": 540,
+  "n_participants": 449,
+  "n_positive_knees": 211,
+  "protocol_version": "convnext_vlm_late_fusion_v1",
+  "raw_features": [
+    "logit_convnext_probability",
+    "logit_vlm_score"
+  ],
+  "seed": 42,
+  "selected_candidate": "weighted_platt_blend_conv70",
+  "selected_definition": {
+    "convnext_weight": 0.7,
+    "type": "weighted_platt_blend"
+  },
+  "selected_validation_threshold": 0.3483373787999339,
+  "selection_boundary": "validation_only_grouped_5_fold_oof",
+  "selection_rule": "maximum OOF ROC-AUC; PR-AUC then lower Brier as tie-breakers",
+  "stacker_fit_on_all_validation": {
+    "coef": [
+      1.9522868614328046,
+      0.6822380229911721
+    ],
+    "intercept": -0.5144282435723511,
+    "mean": [
+      -1.695290915361642,
+      -1.386955206145659
+    ],
+    "scale": [
+      7.780703366110977,
+      2.77932850811386
+    ]
+  },
+  "standalone_validation_thresholds": {
+    "convnext_raw": 0.3269048929214477,
+    "vlm_raw": 0.1048917099833488
+  },
+  "test_data_seen": false,
+  "validation_inputs": {
+    "convnext": {
+      "path": "<withheld>",
+      "sha256": "2ef902ea414b93525c69eff56471a85ffb81151a4a8d70e1d87945cc5026e7db"
+    },
+    "vlm": {
+      "path": "<withheld>",
+      "sha256": "808910998c46f0551a61b489defb679fa454a52e5b4cbf8490ae442741b80c1f"
+    }
+  },
+  "validation_key_sha256": "bcd510862981151cc0ee545d82f8451a2098d58b3750c6c21a26252ec14d7774"
+}

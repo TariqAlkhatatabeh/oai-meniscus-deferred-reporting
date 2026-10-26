@@ -1,0 +1,17 @@
+{
+  "tag": "convnext_safe_strong_16s_tta_20260629_bootstrap_ci",
+  "convnext_csv": "<withheld>",
+  "resnet_csv": "<withheld>",
+  "n_boot": 5000,
+  "seed": 42,
+  "threshold": 0.5,
+  "bootstrap_unit": "participant ID",
+  "n_test_knees": 566,
+  "n_test_participants": 450,
+  "artifacts": {
+    "json": "<withheld>",
+    "model_metrics_csv": "<withheld>",
+    "paired_differences_csv": "<withheld>",
+    "markdown": "<withheld>"
+  }
+}

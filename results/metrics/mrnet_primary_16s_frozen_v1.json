@@ -1,0 +1,65 @@
+{
+  "analysis": "exact primary 16-slice ConvNeXt frozen MRNet transfer",
+  "checkpoint": "<withheld>",
+  "backbone": "convnext_base.fb_in22k_ft_in1k",
+  "local_initialization": "<withheld>",
+  "checkpoint_best_validation_auc": 0.9209222259035711,
+  "mrnet_index": "<withheld>",
+  "fixed_split_file": "<withheld>",
+  "n_slices_per_plane": 16,
+  "tta": [
+    "original",
+    "rot+5",
+    "rot-5",
+    "gamma0.9",
+    "gamma1.1",
+    "noise0.01",
+    "noise0.02"
+  ],
+  "threshold_source": "unchanged primary-model operating point (0.5)",
+  "label_use": "metrics only; no MRNet fitting, calibration, or threshold selection",
+  "metrics": {
+    "official_valid": {
+      "n": 120,
+      "n_positive": 52,
+      "roc_auc": 0.8116515837104072,
+      "pr_auc": 0.747047561613327,
+      "f1": 0.3076923076923077,
+      "sensitivity": 0.19230769230769232,
+      "specificity": 0.9558823529411765,
+      "threshold": 0.5,
+      "roc_auc_95ci": [
+        0.7343748914629064,
+        0.8823807350829088
+      ],
+      "pr_auc_95ci": [
+        0.6283413871807219,
+        0.859623842295184
+      ],
+      "valid_replicates": 5000,
+      "resampling_unit": "examination",
+      "partition": "official_valid"
+    },
+    "fixed_da_test": {
+      "n": 188,
+      "n_positive": 68,
+      "roc_auc": 0.711764705882353,
+      "pr_auc": 0.5936186999295896,
+      "f1": 0.25,
+      "sensitivity": 0.14705882352941177,
+      "specificity": 0.9833333333333333,
+      "threshold": 0.5,
+      "roc_auc_95ci": [
+        0.6294570346320346,
+        0.7889710941716137
+      ],
+      "pr_auc_95ci": [
+        0.47722027330078853,
+        0.7249641293867141
+      ],
+      "valid_replicates": 5000,
+      "resampling_unit": "examination",
+      "partition": "fixed_da_test"
+    }
+  }
+}

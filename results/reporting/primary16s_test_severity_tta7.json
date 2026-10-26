@@ -1,0 +1,23 @@
+{
+  "checkpoint": "<withheld>",
+  "checkpoint_epoch": 14,
+  "backbone": "convnext_base.fb_in22k_ft_in1k",
+  "local_weights": "<withheld>",
+  "split": "locked OAI test",
+  "n": 566,
+  "seed": 42,
+  "tta": [
+    "original",
+    "rot+5",
+    "rot-5",
+    "gamma0.9",
+    "gamma1.1",
+    "noise0.01",
+    "noise0.02"
+  ],
+  "severity_metrics": {
+    "sev_acc": 0.7438162544169611,
+    "sev_f1_macro": 0.7080311890838207
+  },
+  "note": "Severity output is from the primary 16-slice ConvNeXt auxiliary head."
+}

@@ -1,0 +1,20 @@
+{
+  "comparison": "fusion_minus_convnext_auc",
+  "null_hypothesis": "equal ROC AUC for the two paired score vectors",
+  "alternative": "two-sided",
+  "permutation_unit": "participant; all knees from a participant swapped together",
+  "n_knees": 566,
+  "n_participants": 450,
+  "n_permutations": 50000,
+  "seed": 20260904,
+  "observed_auc_difference": 0.0005612990810358598,
+  "extreme_permutations": 48181,
+  "p_value_plus_one_correction": 0.9636207275854483,
+  "monte_carlo_standard_error": 0.0008373185755821085,
+  "permutation_null_quantiles": {
+    "2.5%": -0.023665935672514633,
+    "50%": -0.00015664160400996607,
+    "97.5%": 0.023666262009189667
+  },
+  "predictions": "<withheld>"
+}

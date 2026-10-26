@@ -1,0 +1,16 @@
+manuscript claim	supporting artifact in this repository
+Cohort 3,962 -> 3,672 knees / 2,996 participants; splits 2,566/540/566	results/cohort/cohort_selection.csv, results/cohort/cohort_analysis.csv, results/cohort/cohort_demographics.csv
+Primary AUC 0.909 (0.881-0.935), PR-AUC 0.892, sensitivity 0.790, specificity 0.915	results/metrics/convnext_safe_strong_16s_tta_20260629_bootstrap_ci_model_metrics.csv
+Confusion counts 177/224 and 313/342 at the primary threshold	WITHHELD: row-level test prediction table
+Calibration ECE 0.102 -> 0.038, NLL 0.667 -> 0.357, Brier 0.116 -> 0.106	results/metrics/convnext_safe_strong_16s_tta_20260629_calibration_metrics.csv
+Locked cutoffs 0.8694/0.9697/0.9945; coverage 88.3/81.1/70.7%; AUC 0.920/0.926/0.931	results/metrics/convnext_safe_strong_16s_tta_20260629_coverage.csv
+Conformal coverage 94.0/90.8/79.7%; single-label 72.3/90.3/88.3%	WITHHELD: row-level conformal set table
+Branch errors 43/459 and 33/107; 38 of 224 positives deferred; 28 of 47 misses automated	scripts/compute_deferral_workload.py (requires withheld routing table)
+MRNet frozen 0.712, adapted 0.850, paired +0.138; overlap 92/13/15	results/metrics/mrnet_primary_16s_zero_vs_da_v3_final.json, results/metrics/mrnet_primary_16s_submission_metrics_v1.csv; overlap split table withheld
+Zero-shot VLM 0.510/0.508/0.477/0.489 across four packings; 2,264 parseable generations	results/vlm_eval/qwen25vl7b_zeroshot_analysis_metrics.csv
+QLoRA-adapted VLM 0.876; +0.386 over zero-shot; -0.033 versus ConvNeXt	results/metrics/vlm_finetune_48_strong_locked_test_v1_metrics.csv, results/metrics/vlm_finetune_48_strong_locked_test_v1.json
+Fusion 0.910, paired AUC +0.001 (p = 0.859)	results/fusion/locked_test_results.json, results/fusion/paired_auc_cluster_bootstrap_inference_seed42_5000.json, results/fusion/paired_auc_cluster_permutation_20260904.json
+Audit 25/566 vs 498/566; McNemar 1 vs 393 discordant; 249/250 injections detected	results/reporting/primary16s_paired_report_metrics.csv, results/reporting/primary16s_paired_mcnemar.json, results/reporting/primary16s_frozen_auditor_injections.json, results/reporting/FROZEN_PROTOCOL_20260910_v2_FINAL.md; per-report audit table withheld
+Severity head 421/566, accuracy 0.744, per-class 0.888/0.431/0.804	results/reporting/primary16s_test_severity_tta7.json; per-class counts need withheld row-level severity table
+Grad-CAM foreground mass 0.915/0.903/0.907/0.910 and 93/96 peak-on-foreground	results/metrics/convnext_safe_strong_16s_tta_20260629_gradcam_curated_v3_summary.csv, results/metrics/convnext_safe_strong_16s_tta_20260629_gradcam_curated_v3.json; case selections withheld
+Figure 4 ConvNeXt interval 0.881-0.935 matches Table 1	results/source_data/Figure_4_model_auc.csv

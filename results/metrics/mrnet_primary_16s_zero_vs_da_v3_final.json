@@ -1,0 +1,43 @@
+{
+  "comparison": "same primary 16-slice ConvNeXt, MRNet adapted versus frozen",
+  "n": 188,
+  "bootstrap_replicates": 5000,
+  "resampling_unit": "examination",
+  "frozen": {
+    "roc_auc": 0.711764705882353,
+    "roc_auc_95ci": [
+      0.6311429286553097,
+      0.789518076670261
+    ],
+    "pr_auc": 0.5936186999295896,
+    "pr_auc_95ci": [
+      0.47437274551500846,
+      0.7267009170351791
+    ]
+  },
+  "adapted": {
+    "roc_auc": 0.8495098039215686,
+    "roc_auc_95ci": [
+      0.79148274904212,
+      0.9018167188330478
+    ],
+    "pr_auc": 0.7002495500959962,
+    "pr_auc_95ci": [
+      0.5874815773318498,
+      0.830453545332017
+    ]
+  },
+  "paired_difference_adapted_minus_frozen": {
+    "roc_auc": 0.13774509803921564,
+    "roc_auc_95ci": [
+      0.08634551169635729,
+      0.19351238949881003
+    ],
+    "roc_auc_bootstrap_p_two_sided": 0.0003999200159968006,
+    "pr_auc": 0.10663085016640661,
+    "pr_auc_95ci": [
+      0.04092698003810319,
+      0.17805757233047692
+    ]
+  }
+}

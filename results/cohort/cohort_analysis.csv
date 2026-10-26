@@ -1,0 +1,5 @@
+Partition,Participants,Knees,No tear,Tear,Tear prevalence
+Training,2097,2566,1545,1021,39.8%
+Validation,449,540,329,211,39.1%
+Test,450,566,342,224,39.6%
+Total,2996,3672,2216,1456,39.7%

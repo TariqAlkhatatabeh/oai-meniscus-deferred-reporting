@@ -1,0 +1,6 @@
+category,detected,n,detection_rate_percent
+numeric,50,50,100.0
+anatomy_location,50,50,100.0
+treatment,50,50,100.0
+severity,50,50,100.0
+workflow,49,50,98.0

@@ -1,0 +1,13 @@
+metric,arm,n_knees,n_participants,rate_percent,ci_low_percent,ci_high_percent
+Any rule-domain violation,constrained,566,450,4.41696113074204,2.80689464466771,6.14035087719298
+Any factual-content violation,constrained,566,450,2.12014134275618,1.0434782608695599,3.35703899434003
+Unsupported anatomy/location,constrained,566,450,1.76678445229682,0.71942446043165,2.8934402599785
+Treatment/referral advice,constrained,566,450,0.0,0.0,0.0
+Severity contradiction,constrained,566,450,0.0,0.0,0.0
+Workflow-action inconsistency,constrained,566,450,3.53356890459364,2.09781056639695,5.1056338028169
+Any rule-domain violation,unconstrained,566,450,87.98586572438163,85.17857142857143,90.63604240282686
+Any factual-content violation,unconstrained,566,450,80.03533568904594,76.71220881414486,83.15222261181238
+Unsupported anatomy/location,unconstrained,566,450,79.3286219081272,75.96474417751696,82.57856923914198
+Treatment/referral advice,unconstrained,566,450,3.53356890459364,2.0905923344947697,5.13274336283185
+Severity contradiction,unconstrained,566,450,0.0,0.0,0.0
+Workflow-action inconsistency,unconstrained,566,450,26.14840989399293,22.5130890052356,30.03574763360735

@@ -1,0 +1,6 @@
+Flow stage,"Knees, n","Participants, n"
+Knees with baseline MOAKS tear labels,3962,3229
+Excluded: no baseline MRI in source manifest,288,232
+Excluded: required three-plane series unavailable,1,1
+Excluded: preprocessing failure,1,1
+Final image-complete analysis cohort,3672,2996

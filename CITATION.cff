@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: "Calibrated deferral and audited report drafting for knee MRI meniscal tears"
+message: "Cite the associated manuscript for results; cite this repository for the code release."
+type: software
+authors:
+  - family-names: "Alkhatatbeh"
+    given-names: "Tariq"
+  - family-names: "Alkhatatbeh"
+    given-names: "Ahmad"
+  - family-names: "Chen"
+    given-names: "Weidong"
+  - family-names: "Fang"
+    given-names: "Hang"
+  - family-names: "Li"
+    given-names: "Cheng"
+  - family-names: "Zhang"
+    given-names: "Rongkai"
+repository-code: "https://github.com/TariqAlkhatatabeh/oai-meniscus-deferred-reporting"
+version: "0.2.2"
+date-released: "2026-10-26"
+license: MIT
+keywords:
+  - "knee MRI"
+  - "meniscal tear"
+  - "selective prediction"
+  - "calibration"
+  - "report generation"
+  - "model audit"
+  - "Osteoarthritis Initiative"
+notes: >-
+  This is the code and aggregate-results release for the manuscript. The
+  manuscript is in preparation; no journal citation or DOI exists. The MIT
+  licence covers the code only. OAI and MRNet images, trained weights and
+  row-level prediction/report/audit tables are not distributed. The workflow
+  was not deployed, and no reader study or clinical-outcome endpoint was
+  evaluated.

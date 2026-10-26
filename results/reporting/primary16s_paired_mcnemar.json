@@ -1,0 +1,23 @@
+{
+  "any_rule_violation": {
+    "analysis_unit": "participant (any included knee)",
+    "n_participants": 450,
+    "constrained_only": 1,
+    "unconstrained_only": 393,
+    "exact_two_sided_mcnemar_p": 1.9579824721478153e-116
+  },
+  "factual_content_violation": {
+    "analysis_unit": "participant (any included knee)",
+    "n_participants": 450,
+    "constrained_only": 0,
+    "unconstrained_only": 378,
+    "exact_two_sided_mcnemar_p": 3.248565551764031e-114
+  },
+  "workflow_violation": {
+    "analysis_unit": "participant (any included knee)",
+    "n_participants": 450,
+    "constrained_only": 13,
+    "unconstrained_only": 133,
+    "exact_two_sided_mcnemar_p": 3.147208537399531e-26
+  }
+}

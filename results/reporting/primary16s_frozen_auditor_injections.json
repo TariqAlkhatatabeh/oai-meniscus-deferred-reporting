@@ -1,0 +1,33 @@
+{
+  "design": "Frozen-auditor exact-pattern injection challenge",
+  "total_detected": 249,
+  "total_n": 250,
+  "by_type": {
+    "numeric": {
+      "detected": 50,
+      "n": 50,
+      "rate": 1.0
+    },
+    "anatomy_location": {
+      "detected": 50,
+      "n": 50,
+      "rate": 1.0
+    },
+    "treatment": {
+      "detected": 50,
+      "n": 50,
+      "rate": 1.0
+    },
+    "severity": {
+      "detected": 50,
+      "n": 50,
+      "rate": 1.0
+    },
+    "workflow": {
+      "detected": 49,
+      "n": 50,
+      "rate": 0.98
+    }
+  },
+  "boundary": "Tests the implemented exact patterns; not unrestricted clinical paraphrase."
+}

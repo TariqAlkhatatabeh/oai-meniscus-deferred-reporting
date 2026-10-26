@@ -1,0 +1,38 @@
+{
+  "tag": "convnext_safe_strong_16s_tta_20260629_conformal",
+  "val_csv": "<withheld>",
+  "test_csv": "<withheld>",
+  "calibration_json": "<withheld>",
+  "temperature": 3.1042497158050537,
+  "alphas": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "target_coverages": [
+    0.95,
+    0.9,
+    0.8
+  ],
+  "quantiles": {
+    "0.05": 0.83455085537966,
+    "0.1": 0.6366550977315006,
+    "0.2": 0.34985851987318517
+  },
+  "method": {
+    "nonconformity_score": "1 - P_temperature_scaled(true_label)",
+    "prediction_rule": "include candidate label y if 1 - P_temperature_scaled(y) <= qhat",
+    "defer_definition": "ambiguous and empty prediction sets",
+    "caveat": "Validation split was also used for checkpoint selection and temperature scaling; report as validation-locked conformal-style analysis unless a dedicated calibration split is created."
+  },
+  "artifacts": {
+    "json": "<withheld>",
+    "metrics_csv": "<withheld>",
+    "test_predictions_csv": "<withheld>",
+    "validation_scores_csv": "<withheld>",
+    "markdown": "<withheld>",
+    "caption": "<withheld>",
+    "figure": "<withheld>",
+    "figure_pdf": "<withheld>"
+  }
+}

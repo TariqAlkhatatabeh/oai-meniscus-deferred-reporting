@@ -1,0 +1,78 @@
+{
+  "tag": "convnext_safe_strong_16s_tta_20260629_calibration",
+  "model": "<withheld>",
+  "val_csv": "<withheld>",
+  "test_csv": "<withheld>",
+  "temperature": 3.1042497158050537,
+  "temperature_fit": {
+    "split": "validation",
+    "objective": "binary_nll",
+    "note": "Fit to logits reconstructed from TTA-averaged probabilities."
+  },
+  "threshold": 0.5,
+  "n_bins": 10,
+  "metrics": {
+    "val": {
+      "raw": {
+        "n": 540,
+        "brier": 0.11517867345501909,
+        "nll": 0.5893903485724538,
+        "ece": 0.1011044407434635,
+        "mce": 0.5566738694906235,
+        "auc": 0.9198778432417638,
+        "pr_auc": 0.9095228298828952,
+        "f1_at_0p5": 0.8197530864197531,
+        "mean_probability": 0.36551468634051976,
+        "positive_rate": 0.3907407407407407
+      },
+      "temperature_scaled": {
+        "n": 540,
+        "brier": 0.10183055677029587,
+        "nll": 0.33377358765560994,
+        "ece": 0.04405726426382171,
+        "mce": 0.17589621443409797,
+        "auc": 0.9198778432417638,
+        "pr_auc": 0.9095228298828952,
+        "f1_at_0p5": 0.8197530864197531,
+        "mean_probability": 0.39809970597277655,
+        "positive_rate": 0.3907407407407407
+      }
+    },
+    "test": {
+      "raw": {
+        "n": 566,
+        "brier": 0.11561725653363973,
+        "nll": 0.666693015569777,
+        "ece": 0.10162186508329998,
+        "mce": 0.44763206243515014,
+        "auc": 0.9089520676691729,
+        "pr_auc": 0.8919698216489905,
+        "f1_at_0p5": 0.8232558139534883,
+        "mean_probability": 0.3763269102463168,
+        "positive_rate": 0.3957597173144876
+      },
+      "temperature_scaled": {
+        "n": 566,
+        "brier": 0.10636770741119415,
+        "nll": 0.35738041667323694,
+        "ece": 0.03836086514128417,
+        "mce": 0.1247504133121839,
+        "auc": 0.9089520676691729,
+        "pr_auc": 0.8919698216489905,
+        "f1_at_0p5": 0.8232558139534883,
+        "mean_probability": 0.40794552677995943,
+        "positive_rate": 0.3957597173144876
+      }
+    }
+  },
+  "artifacts": {
+    "json": "<withheld>",
+    "metrics_csv": "<withheld>",
+    "bins_csv": "<withheld>",
+    "calibrated_test_predictions": "<withheld>",
+    "markdown": "<withheld>",
+    "figure": "<withheld>",
+    "figure_pdf": "<withheld>",
+    "caption": "<withheld>"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "tag": "convnext_safe_strong_16s_tta_20260629_extended_ci_v2_corrected_labels",
+  "n_boot": 5000,
+  "seed": 42,
+  "threshold": 0.5,
+  "bootstrap_unit": "participant ID",
+  "n_test_knees": 566,
+  "n_test_participants": 450,
+  "inputs": {
+    "convnext_csv": "<withheld>",
+    "resnet_csv": "<withheld>",
+    "calib_csv": "<withheld>",
+    "conformal_csv": "<withheld>",
+    "coverage_metrics_csv": "<withheld>",
+    "mrnet_csv": "<withheld>",
+    "location_csv": "<withheld>"
+  },
+  "artifacts": {
+    "json": "<withheld>",
+    "metrics_csv": "<withheld>",
+    "markdown": "<withheld>"
+  }
+}
